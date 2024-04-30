@@ -24,3 +24,6 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+# Api документация
+документация доступна по http://127.0.0.1:8000/redoc/ или http://127.0.0.1:8000/swagger/
+
