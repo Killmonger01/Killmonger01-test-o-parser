@@ -15,3 +15,7 @@ source venv/bin/activate # Для MacOS, Linux
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
+- запустите сервер после чего можете отправлять http запросы
+```
+python manage.py runserver
+```
