@@ -15,6 +15,11 @@ source venv/bin/activate # Для MacOS, Linux
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
+- Сделайте миграции
+```
+python manage.py makemigrations
+python manage.py migrate
+```
 - запустите сервер после чего можете отправлять http запросы
 ```
 python manage.py runserver
