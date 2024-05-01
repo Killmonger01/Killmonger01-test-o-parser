@@ -20,6 +20,7 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 ```
+- В файле api/telegram.py на 14 строке подставьте свой chat_id в телеграмме
 - запустите сервер после чего можете отправлять http запросы
 ```
 python manage.py runserver
